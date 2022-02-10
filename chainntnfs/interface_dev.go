@@ -6,7 +6,7 @@ import "github.com/btcsuite/btcd/chaincfg/chainhash"
 
 // TestChainNotifier enables the use of methods that are only present during
 // testing for ChainNotifiers.
-type TestChainNotifier interface {
+type TestChainNotifier interface  {
 	ChainNotifier
 
 	// UnsafeStart enables notifiers to start up with a specific best block.
